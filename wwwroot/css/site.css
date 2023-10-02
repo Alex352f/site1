@@ -20,6 +20,7 @@ body {
 /*header*/
 .header {
     width: 100%;
+    /*padding-top: 20px;*/
 
     position: absolute;
     top: 0;
@@ -98,27 +99,32 @@ body {
 
 
 /*section*/
-.cont_header_lofo{
-    
+.section{
+    border: 2px solid #E6E6E6;
+    padding-top:25px;
 }
-
-.header_inner_sec {
+.section_header {
+    
     align-items:center;
     display: flex;
     justify-content: space-between;
+    /**/
 }
 
 /*nav*/
 .nav {
     text-transform:uppercase;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .nav_link {
     display:inline-block;
     vertical-align:top;
-    margin:0 10px;
-
+    margin:0 15px;
+    
+    font-weight: 600;
+    line-height: normal;
+    font-family: OpenSans;
     color: #48555B;
     text-decoration: none;
     transition: color .2s liner;
@@ -126,4 +132,12 @@ body {
 
 .nav_link:hover {
     color: #00A4E5;
+}
+
+/**/
+.header_inner_sec{
+    width: 100%;
+    max-width: 940px;
+    margin: 50px auto 40px;
+    text-align: center;
 }
