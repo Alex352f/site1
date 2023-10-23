@@ -210,17 +210,27 @@ body {
 
 /*About*/
 
+.about_all{
+    display: flex;
+    flex-direction: row;
+}
+
 .about {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 534px;
 }
+
+
 
 .about_item{
-    /*width: 30%;*/
+    width: 20%;
 }
 
+
 .about__text {
+    
     color: #000000;
     text-transform: uppercase;
     font-weight: 800;
