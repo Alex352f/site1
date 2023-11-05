@@ -97,7 +97,7 @@ body {
 
 /*section*/
 .section {
-    border: 2px solid #E6E6E6;
+    /*border: 2px solid #E6E6E6;*/
     padding-top: 25px;
 }
 
@@ -130,9 +130,9 @@ body {
     transition: color .2s liner;
 }
 
-.nav_link:hover {
-    color: #00A4E5;
-}
+    .nav_link:hover {
+        color: #00A4E5;
+    }
 
 /**/
 .header_inner_sec {
@@ -210,7 +210,7 @@ body {
 
 /*About*/
 
-.about_all{
+.about_all {
     display: flex;
     flex-direction: row;
 }
@@ -224,13 +224,12 @@ body {
 
 
 
-.about_item{
+.about_item {
     width: 20%;
 }
 
 
 .about__text {
-    
     color: #000000;
     text-transform: uppercase;
     font-weight: 800;
@@ -238,3 +237,40 @@ body {
     text-align: left;
     line-height: 29px;
 }
+
+
+.section_title_2 {
+    width: 100%;
+    max-width: 940px;
+    font-size: 36px;
+    margin: 50px auto 40px;
+    text-align: center;
+}
+
+.layer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("../png/gorod.png") center no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+
+/*botton*/
+
+.btn{
+    display:inline-block;
+    vertical-align:top;
+    padding: 10px 30px;
+
+    border: 2px solid #00A4E5;
+    color: #fff;
+    text-transform:uppercase;
+    font-size: 13px;
+    text-transform:uppercase;
+    text-decoration:none;
+}
+
+
