@@ -15,6 +15,7 @@ body {
     max-width: 940px;
     margin: 0 auto;
     /*justify-content:space-between;*/
+    /*background: #171819;*/ /*типо темная тема*/
 }
 
 
@@ -266,6 +267,7 @@ body {
     padding: 10px 30px;
 
     border: 2px solid #00A4E5;
+    background-color: #00A4E5;
     color: #fff;
     text-transform:uppercase;
     font-size: 13px;
@@ -273,4 +275,41 @@ body {
     text-decoration:none;
 }
 
+/*mail_sendler*/
+
+.singed{
+    height: 100px;
+    display: flex;
+    background: #171819;
+    margin: 0 auto;
+}
+
+.singed_text{
+    color: #fff;
+    font-family: OpenSans;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+form{
+    max-width: 480px;
+    margin: 50px auto;
+    padding: 16px;
+    /*border: 1px solid #eaeaea;*/
+}
+input[type="email"],
+select{
+    height: 40px;
+    margin: o auto;
+}
+
+.input_form{
+    height: 100px;
+    width: 640px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
 
