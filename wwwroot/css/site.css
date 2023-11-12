@@ -379,3 +379,14 @@ select {
 
     text-decoration: underline;
 }
+
+/*copyrite*/
+
+.copyrite {
+    padding: 20px 0;
+    background-color: #171819;
+    text-align: center;
+    color: #ffff;
+    font-family: OpenSans;
+    font-size: 11px;
+}
