@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'BebasNeueBold';
+    /*background: #171819;*/ /*bomsh temnaya tema*/
 }
 
 *,
@@ -15,7 +16,6 @@ body {
     max-width: 940px;
     margin: 0 auto;
     /*justify-content:space-between;*/
-    /*background: #171819;*/ /*типо темная тема*/
 }
 
 
@@ -253,7 +253,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     background: url("../png/gorod.png") center no-repeat;
     background-size: cover;
     text-align: center;
